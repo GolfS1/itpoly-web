@@ -1,0 +1,22 @@
+.header {
+    background-color: #52b788;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .header-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header-logo {
+    width: 100px;
+    height: auto;
+  }
+  

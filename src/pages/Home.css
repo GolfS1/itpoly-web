@@ -1,0 +1,50 @@
+.home {
+    padding: 2rem;
+  }
+  
+  .welcome {
+    background-color: #d8f3dc;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .welcome img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 1rem;
+  }
+  
+  /* เพิ่ม CSS สำหรับกิจกรรม */
+  .activities {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .activity-images {
+    display: flex;
+    justify-content: center; /* จัดกลางในแนวนอน */
+    align-items: center; /* จัดกลางในแนวตั้ง */
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .activity-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* สำหรับการรองรับอุปกรณ์มือถือ (Responsive Design) */
+  @media (max-width: 768px) {
+    .activity-images {
+      flex-direction: column; /* จัดให้รูปอยู่ในแนวตั้งเมื่อหน้าจอเล็ก */
+      align-items: center; /* จัดให้รูปภาพตรงกลางในแนวตั้ง */
+    }
+  
+    .activity-image {
+      max-width: 100%; /* รูปจะยืดเต็มความกว้างของหน้าจอ */
+    }
+  }
+  

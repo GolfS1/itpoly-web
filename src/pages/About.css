@@ -1,0 +1,52 @@
+.about {
+    padding: 2rem;
+  }
+  
+  .about-info {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-info p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* เพิ่ม CSS สำหรับรูปภาพในส่วนเกี่ยวกับเรา */
+  .about-images {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .activity-images {
+    display: flex;
+    justify-content: center; /* จัดกลางในแนวนอน */
+    align-items: center; /* จัดกลางในแนวตั้ง */
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .activity-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* สำหรับการรองรับอุปกรณ์มือถือ (Responsive Design) */
+  @media (max-width: 768px) {
+    .activity-images {
+      flex-direction: column; /* จัดให้รูปอยู่ในแนวตั้งเมื่อหน้าจอเล็ก */
+      align-items: center; /* จัดให้รูปภาพตรงกลางในแนวตั้ง */
+    }
+  
+    .activity-image {
+      max-width: 100%; /* รูปจะยืดเต็มความกว้างของหน้าจอ */
+    }
+  }
+  

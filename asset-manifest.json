@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/itpoly-web/static/css/main.a6f70295.css",
+    "main.js": "/itpoly-web/static/js/main.eb7e947a.js",
+    "static/js/488.eb5b9b61.chunk.js": "/itpoly-web/static/js/488.eb5b9b61.chunk.js",
+    "index.html": "/itpoly-web/index.html",
+    "main.a6f70295.css.map": "/itpoly-web/static/css/main.a6f70295.css.map",
+    "main.eb7e947a.js.map": "/itpoly-web/static/js/main.eb7e947a.js.map",
+    "488.eb5b9b61.chunk.js.map": "/itpoly-web/static/js/488.eb5b9b61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6f70295.css",
+    "static/js/main.eb7e947a.js"
+  ]
+}
